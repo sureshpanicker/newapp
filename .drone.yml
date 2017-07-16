@@ -5,7 +5,7 @@ pipeline:
       - go get
       - go build
       - go test
-
+#services
 services:
   postgres:
     image: postgres:9.4.5
